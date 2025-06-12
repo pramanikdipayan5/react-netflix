@@ -5,12 +5,6 @@ import { initializeApp } from "firebase/app";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyAeR5HMr37SPAnAHi5YkN7U9vtmSrBKMsM",
-  authDomain: "netflixgptdipayan.firebaseapp.com",
-  projectId: "netflixgptdipayan",
-  storageBucket: "netflixgptdipayan.firebasestorage.app",
-  messagingSenderId: "803543550775",
-  appId: "1:803543550775:web:68d34f06364f2a09c5e8b2"
 };
 
 // Initialize Firebase
