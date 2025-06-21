@@ -1,0 +1,23 @@
+<div>
+
+{{ dump(articles) }}
+{% if articles %}
+  <ul>
+    {% for article in articles %}
+      <li>
+        {{ article }}
+      </li>
+    {% endfor %}    
+  </ul>
+  <p>
+{% else %}
+  <p>{{ 'No articles available'|t }}</p>
+{% endif %}
+{% if count %}
+  {% trans %}
+    Showing {{ count }} article.
+  {% plural count %}
+    Showing {{ count }} articles.
+  {% endtrans %}
+{% endif %}
+</div>
